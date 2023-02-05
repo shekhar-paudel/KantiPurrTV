@@ -18,8 +18,12 @@
   }
 
   .u-section-1 .u-video-1 {
-    width: 540px;
     height: 304px;
+    margin-top: 18px;
+    margin-bottom: 42px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 }
 
@@ -29,7 +33,11 @@
   }
 
   .u-section-1 .u-video-1 {
-    width: 340px;
     height: 191px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 }
