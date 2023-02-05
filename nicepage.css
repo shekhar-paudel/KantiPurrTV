@@ -41388,10 +41388,42 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-text-1 {
   margin: -107px auto 60px;
 }
+@media (max-width: 1199px) {
+  .u-header .u-image-1 {
+    margin-left: 46px;
+  }
+}
+@media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 284px;
+  }
 
+  .u-header .u-image-1 {
+    margin-top: 33px;
+    margin-left: auto;
+  }
 
+  .u-header .u-text-1 {
+    width: auto;
+    margin-top: 13px;
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .u-header .u-image-1 {
+    margin-top: 39px;
+  }
 
-
+  .u-header .u-text-1 {
+    margin-top: 11px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-text-1 {
+    margin-bottom: 39px;
+  }
+}
  .u-footer {
   background-image: none;
 }
