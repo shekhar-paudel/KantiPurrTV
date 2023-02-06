@@ -50,8 +50,8 @@ document.addEventListener('click', function() {
    image.classList.toggle('visible');
    	 $(document).mousemove(function(e) {
      $(".cursor-image").css({
-    left: e.pageX,
-    top: e.pageY
+    left: e.pageX+100,
+    top: e.pageY-20
   });
 });
 });

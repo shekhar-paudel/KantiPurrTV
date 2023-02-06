@@ -41502,14 +41502,17 @@ a.u-link.u-text-hover-grey-90:hover {
     position: absolute;
     z-index: 2;
     display: none;
+
  }
  
  .cursor-image.hidden {
     display: none;
+
  }
  
  .cursor-image.visible {
     display: block;
+
  }
 
 
