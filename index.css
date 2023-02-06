@@ -41496,3 +41496,23 @@ a.u-link.u-text-hover-grey-90:hover {
   background: #125688;
   color: white;
 }
+
+
+  .cursor-image {
+    position: absolute;
+    z-index: 2;
+    display: none;
+ }
+ 
+ .cursor-image.hidden {
+    display: none;
+ }
+ 
+ .cursor-image.visible {
+    display: block;
+ }
+
+
+ body {
+  cursor: url('images/cursor.svg') 10 10, default;	
+} 
